@@ -12,6 +12,17 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/profile', (req, res) => {
+  
+
+  const l2 = lego.lego.find(p => p.id == req.query.id);
+  console.log(l2);
+  res.render('profile', {
+    title: `Istruzioni ${l2.setName}`,
+    l2,
+  });
+});
+
 app.listen(3000, function () {
  console.log('Example app listening on port 3000!');
 });

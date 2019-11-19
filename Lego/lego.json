@@ -7,7 +7,25 @@
      "year": "2004" ,
      
      "imgSrc": "001.jpg",
-     "id": "tom"
+     "id": "i1"
+   },
+   {
+       "setName": "Hogwarts Castle",
+     "setNumber": "LEGO 4709" ,
+     "setTheme": "Harry Potter" ,
+     "year": "2001" ,
+     
+     "imgSrc": "002.jpg",
+     "id": "i2" 
+   },
+   {
+       "setName": "The Jokers Aerial",
+     "setNumber": "LEGO 7782" ,
+     "setTheme": "Batman" ,
+     "year": "2006" ,
+     
+     "imgSrc": "003.jpg",
+     "id": "i3" 
    }
  ]
 }
