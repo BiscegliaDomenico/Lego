@@ -13,8 +13,6 @@ app.get('/', (req, res) => {
 });
 
 app.get('/profile', (req, res) => {
-  
-
   const l2 = lego.lego.find(p => p.id == req.query.id);
   console.log(l2);
   res.render('profile', {

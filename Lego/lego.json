@@ -5,7 +5,7 @@
      "setNumber": "LEGO 4854" ,
      "setTheme": "Spider-Man" ,
      "year": "2004" ,
-     
+     "imgIstr" : ["s1.jpg", "s2.jpg", "s3.jpg"],
      "imgSrc": "001.jpg",
      "id": "i1"
    },
@@ -14,7 +14,7 @@
      "setNumber": "LEGO 4709" ,
      "setTheme": "Harry Potter" ,
      "year": "2001" ,
-     
+     "imgIstr" : ["h1.jpg", "h2.jpg", "h3.jpg"],
      "imgSrc": "002.jpg",
      "id": "i2" 
    },
@@ -25,6 +25,7 @@
      "year": "2006" ,
      
      "imgSrc": "003.jpg",
+     "imgIstr" : ["b1.jpg", "b2.jpg", "b3.jpg"],
      "id": "i3" 
    }
  ]

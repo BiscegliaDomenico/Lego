@@ -8,11 +8,11 @@ html
    header.header
       h1 #{title}
    div.profile
-     div.lego-image
-       img (style=`background: url('/images/${l2.imgSrc}') ;`)
-     div.profile-details
-       h1.profile-name
-         | #{l2.setName} 
+     div
+       each img in l2.imgIstr
+         center
+           img(src=`/images/${img}`)
+ 
        //h2.profile-tagline
        //  | #{person.tagline}
        //p.profile-bio
